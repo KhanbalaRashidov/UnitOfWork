@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Identifier that must be unique within the hosting gallery -->
+        <id>UnitOfWork</id>
+
+        <!-- Package version number that is used when resolving dependencies -->
+        <version>1.0.0</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>Khanbala Rashidov</authors>
+
+        <!-- 
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  
+        -->
+        <owners>Khanbala Rashidov</owners>
+        
+         <!-- Project URL provides a link for the gallery -->
+        <projectUrl>http://github.com/KhanbalaRashidov/UnitOfWork</projectUrl>
+
+         <!-- License information is displayed on the gallery -->
+        <license type="expression">Apache-2.0</license>
+        
+        <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+        <!-- Any details about this particular release -->
+        <releaseNotes>Bug fixes and performance improvements</releaseNotes>
+
+        <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+        <description>Core Unit Of Work</description>
+
+        <!-- Copyright information -->
+        <copyright>Copyright ©2025 Khanbala Rashidov</copyright>
+
+        <!-- Tags appear in the gallery and can be used for tag searches -->
+        <tags> dotnet unitofwork c#</tags>
+
+        <!-- Dependencies are automatically installed when the package is installed -->
+        <dependencies>
+            <dependency id="Microsoft.EntityFrameworkCore" version="8.0.7" />
+             <dependency id="Microsoft.EntityFrameworkCore.AutoHistory" version="6.0.0" />
+              <dependency id="Microsoft.EntityFrameworkCore.Relational" version="8.0.7" />
+               <dependency id="Newtonsoft.Json" version="9.0" />
+        </dependencies>
+    </metadata>
+</package>
